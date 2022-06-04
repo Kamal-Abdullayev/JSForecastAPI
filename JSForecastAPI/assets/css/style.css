@@ -1,0 +1,33 @@
+.container {
+  margin-top: 3%;
+}
+
+.container .row .forecast .top-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .row .forecast .top-side .typeSelect {
+  margin: 0 1%;
+}
+
+.container .row .forecast .forecast-info ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 1%;
+}
+
+.container .row .forecast .forecast-info .error {
+  display: none;
+  margin-top: 1%;
+  color: red;
+  font-size: x-large;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
